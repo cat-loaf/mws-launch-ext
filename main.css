@@ -13,6 +13,16 @@ div#holder {
     background-color:#424242; 
     color:#ffffff;
 }
+div#holder4 {
+    margin: 0; 
+    
+    width:15em; 
+    height:20em; 
+    
+    background-color:#424242; 
+    color:#ffffff;
+}
+
 div.item {
     background-color:#535353;
     padding:1px;
