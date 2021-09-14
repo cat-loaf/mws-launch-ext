@@ -1,0 +1,51 @@
+:root {
+    margin:0;
+    padding:0;
+    transition: all ease-in-out 250ms;
+}
+
+div#holder {
+    margin: 0; 
+    
+    width:15em; 
+    height:15em; 
+    
+    background-color:#424242; 
+    color:#ffffff;
+}
+div.item {
+    background-color:#535353;
+    padding:1px;
+    width: 90%;
+    position:relative;
+    left:7px;
+    border-radius:3px;
+    line-height:30px;
+}
+
+ul {
+    list-style: none; 
+    
+    margin:0; 
+    padding:0; 
+
+    padding-top:10px
+}
+li {
+    padding:10px;
+    text-align:center;
+}
+
+a {
+    color:inherit;
+    text-decoration:none;
+}
+a:hover, a:focus {
+    animation: text-glow 2s infinite;
+}
+@keyframes text-glow {
+    0% { color:#ffffff; }
+    50% { color:#3e80fc; }
+    100% { color:#ffffff; }
+    
+}

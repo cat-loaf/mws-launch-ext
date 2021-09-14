@@ -1,0 +1,20 @@
+{ 
+    "manifest_version": 2, 
+    "name": "MW", 
+    "description": "MYW Launcher.", 
+    "version": "1", 
+    "author": "catloaf",
+    
+    "browser_action": {   
+        "default_icon": "tab-icon.jpg",   
+        "default_title": "Have a good day", 
+        "default_popup": "index.html",
+        "icons": { 
+            "16": "icon16.jpg",
+            "48": "icon48.jpg",
+            "128": "icon128.jpg" 
+        } 
+    },
+    "permissions": ["activeTab"]
+
+}
