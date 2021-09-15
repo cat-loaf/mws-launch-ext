@@ -23,6 +23,20 @@ div#holder4 {
     color:#ffffff;
 }
 
+div#ovf {
+    margin: 0; 
+    
+    width:15em; 
+    height:20em; 
+    
+    background-color:#424242; 
+    color:#ffffff;
+
+    overflow-y: auto;     
+    overflow-x: hidden; 
+}
+
+
 div.item {
     background-color:#535353;
     padding:1px;
@@ -52,10 +66,15 @@ a {
 }
 a:hover, a:focus {
     animation: text-glow 2s infinite;
+    text-decoration:underline;
 }
 @keyframes text-glow {
     0% { color:#ffffff; }
     50% { color:#3e80fc; }
     100% { color:#ffffff; }
     
+}
+
+::-webkit-scrollbar {
+    width: 0px;
 }
